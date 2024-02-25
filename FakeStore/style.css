@@ -1,0 +1,151 @@
+html {
+  font-size: 62.5%;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: lightgrey;
+}
+.nav {
+  padding: 3rem;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: end;
+  gap: 10rem;
+  font-size: 3rem;
+  font-weight: 600;
+  list-style: none;
+  background-color: rgb(230, 221, 221);
+}
+.main {
+  /* width: 100vh; */
+  margin: 0 10rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 5rem;
+  justify-content: end;
+}
+article {
+  display: inline;
+  background-color: white;
+  display: flex;
+  gap: 1rem;
+  padding: 3rem 2rem;
+  border: 0.2rem solid slategray;
+  border-radius: 5%;
+}
+
+.descp {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  line-height: 1.2;
+  color: rgb(72, 158, 158);
+
+  gap: 1rem;
+  /* color: blue; */
+}
+.title {
+  font-size: 2.2rem;
+  color: rgb(153, 90, 8);
+}
+.description {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+.rating {
+  font-size: 1.2rem;
+  color: black;
+}
+.price {
+  /* text-align: center; */
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: rgb(153, 90, 8);
+}
+
+a:link {
+  cursor: pointer;
+  text-decoration: none;
+  color: rgb(106, 165, 165);
+}
+a:visited {
+  color: rgb(153, 90, 8);
+}
+a:hover {
+  color: rgb(106, 165, 165);
+}
+a:active {
+  color: rgb(120, 231, 179);
+}
+/* li {
+  padding: 1rem 2rem;
+} */
+
+/* img {
+  width: 10rem;
+  background: seagreen;
+} */
+
+.image-container {
+  width: 30rem;
+}
+.image-container > img {
+  max-width: 100%;
+}
+/* 
+
+for the individual article or element
+
+*/
+.articleEl {
+  margin: 0 10rem;
+  display: inline;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  gap: 7rem;
+  padding: 3rem 2rem;
+  border: 0.2rem solid slategray;
+  /* border-radius: 5%; */
+}
+
+.descpEl {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  line-height: 1.2;
+  color: rgb(72, 158, 158);
+
+  gap: 3rem;
+  /* color: blue; */
+}
+.titleEl {
+  font-size: 7rem;
+  color: rgb(153, 90, 8);
+}
+.descriptionEl {
+  margin-top: 2rem;
+  font-size: 3rem;
+}
+.ratingEl {
+  font-size: 3rem;
+  color: black;
+}
+.priceEl {
+  /* text-align: center; */
+  font-size: 7rem;
+  font-weight: 800;
+  color: rgb(153, 90, 8);
+}
+
+.image-containerEl {
+  width: 50rem;
+}
+.image-containerEl > img {
+  max-width: 100%;
+}
