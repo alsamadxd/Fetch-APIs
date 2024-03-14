@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&family=Whisper&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Whisper", cursive;
+  font-weight: 600;
+  font-size: 62.5%;
+}
+body {
+  background-color: rgb(0, 0, 0);
+}
+
+.container {
+  width: 100rem;
+  height: 100vh;
+  background: linear-gradient(135deg, #32ebb3, #52adc9);
+  margin: 0 auto;
+}
+
+.container h1 {
+  text-align: center;
+  font-size: 7rem;
+  margin: 5rem 0;
+  padding-top: 5rem;
+  /* font-weight: 600; */
+}
+
+.box {
+  max-width: 70rem;
+  height: 70vh;
+  background-color: rgb(215, 243, 191);
+  text-align: center;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.box h2 {
+  font-size: 5rem;
+  color: #d42424;
+  margin-top: 3rem;
+}
+.box blockquote {
+  font-size: 5rem;
+  margin: 8rem 0;
+  color: #117456;
+}
+
+.box span {
+  float: right;
+  position: relative;
+  right: 8rem;
+  font-size: 4rem;
+}
+
+.box button {
+  font-size: 2rem;
+  padding: 2rem 5rem;
+  /* margin-top: 10rem; */
+  margin: 25rem 0 0 15rem;
+  border-radius: 10rem;
+  background-color: #47867c;
+  color: #f0e3e3;
+  cursor: pointer;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
