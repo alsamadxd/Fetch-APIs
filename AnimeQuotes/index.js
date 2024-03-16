@@ -18,9 +18,12 @@ function getData() {
     response.json()
   );
 }
+getData().then((res) => {
+  pushElement(res);
+});
 
 document.querySelector(".btn").addEventListener("click", () => {
   getData().then((res) => {
-    pushEelment(res);
+    pushElement(res);
   });
 });

@@ -16,6 +16,7 @@ body {
   height: 100vh;
   background: linear-gradient(135deg, #32ebb3, #52adc9);
   margin: 0 auto;
+  /* position: absolute; */
 }
 
 .container h1 {
@@ -26,38 +27,91 @@ body {
   /* font-weight: 600; */
 }
 
-.box {
+/* .box {
   max-width: 70rem;
   height: 70vh;
   background-color: rgb(215, 243, 191);
   text-align: center;
   margin: 0 auto;
   padding: 1rem;
-}
-
+} */
+/* 
 .box h2 {
   font-size: 5rem;
   color: #d42424;
   margin-top: 3rem;
-}
-.box blockquote {
+} */
+/* .box blockquote {
   font-size: 5rem;
   margin: 8rem 0;
   color: #117456;
-}
+} */
 
-.box span {
+/* .box span {
   float: right;
   position: relative;
   right: 8rem;
   font-size: 4rem;
+} */
+
+/* .box button {
+  font-size: 2rem;
+  padding: 2rem 5rem;
+  
+  margin: 25rem 0 0 15rem;
+  border-radius: 10rem;
+  background-color: #47867c;
+  color: #f0e3e3;
+  cursor: pointer;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+} */
+
+.box {
+  max-width: 70rem;
+  height: 70vh;
+  margin: 0 auto;
+  padding: 1rem;
+  background-color: rgb(215, 243, 191);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* .box */
+h2 {
+  font-size: 5rem;
+  font-family: "Courier New", Courier, monospace;
+  color: #d42424;
+  margin-top: 3rem;
+}
+/* .box */
+blockquote {
+  font-size: 4rem;
+  margin: 8rem 0;
+  color: #117456;
+}
+/* .box  */
+span {
+  /* float: right; */
+  /* position: relative; */
+  /* align-items: end; */
+  /* right: 8rem; */
+  /* justify-content: end; */
+  align-self: flex-end;
+  margin-right: 3rem;
+  font-size: 4rem;
+  color: #d42424;
 }
 
-.box button {
+/* .box  */
+button {
+  position: relative;
+  top: 1rem;
+  right: -40rem;
+  /* position: fixed; */
   font-size: 2rem;
   padding: 2rem 5rem;
   /* margin-top: 10rem; */
-  margin: 25rem 0 0 15rem;
+  /* margin: 25rem 0 0 15rem; */
   border-radius: 10rem;
   background-color: #47867c;
   color: #f0e3e3;
